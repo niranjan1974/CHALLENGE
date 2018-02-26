@@ -10,3 +10,15 @@ Data Ingestion:
 
 Data from source is ingested into Kafka topics using Kafka Producer which allows to publish records to the Kafka topics synchronously and asynchronously.
 Producer logic to pull the data from source systems and ingest into Kafka topic.
+
+Stream Processing :
+
+Kafka consumer consumes the data from topics and streams using Spark streaming logic written using pyspark.
+
+Hive :
+
+Create EXTERNAL HIVE TABLE on top of the Sequence Files to make data available and add partitions to the table to optimize query performance
+
+PowerBI Dashboards:
+
+Connected Power BI to Hive.
